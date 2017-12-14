@@ -1,10 +1,10 @@
-/* 
+/*
 
 footer: dark-blue #0c2745
 
 background: blue #213c5c
 
-donate button: orange #d6760d 
+donate button: orange #d6760d
 
 blue: #224565;
 
@@ -38,6 +38,20 @@ body background: off-white #fefcfd
         .main-nav ul li a:hover {
           color: #d4740d !important;
           text-decoration: none; }
+
+footer {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  margin-left: 0px !important;
+  height: auto;
+  width: 960px !important; }
+
+.footer-font {
+  font-size: 20px !important; }
+
+footer > img {
+  float: center; }
 
 #aside-link {
   padding-left: 25px; }
@@ -77,20 +91,6 @@ body {
   float: right; }
 
 /* Set black background color, white text and some padding */
-footer {
-  background-color: #0c2745;
-  color: white;
-  padding: 15px;
-  margin-left: 0px !important;
-  height: auto;
-  width: 960px !important; }
-
-.footer-font {
-  font-size: 10.5px !important; }
-
-footer > img {
-  float: center; }
-
 h1,
 h2,
 h3,
