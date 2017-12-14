@@ -1,10 +1,10 @@
-/* 
+/*
 
 footer: dark-blue #0c2745
 
 background: blue #213c5c
 
-donate button: orange #d6760d 
+donate button: orange #d6760d
 
 blue: #224565;
 
@@ -13,6 +13,7 @@ body background: off-white #fefcfd
 */
 
 @import 'components/main-nav';
+@import 'components/footer';
 
 #aside-link {
   padding-left: 25px;
@@ -29,7 +30,7 @@ body {
   width: 960px !important;
   font-family: "Arial", sans-serif !important;
   padding: 0px !important;
-  
+
 }
 
 .body-padding {
@@ -51,9 +52,9 @@ body {
 }
 
 .facebook {
-  margin: 20px 50px 0 0; 
-  padding-right: 0; 
-  position: absolute; 
+  margin: 20px 50px 0 0;
+  padding-right: 0;
+  position: absolute;
   left: 320px
 }
 
@@ -62,22 +63,7 @@ body {
 }
 /* Set black background color, white text and some padding */
 
-footer {
-  background-color: #0c2745;
-  color: white;
-  padding: 15px;
-  margin-left: 0px !important;
-  height: auto;
-  width: 960px !important;
-}
 
-.footer-font {
-  font-size: 10.5px !important;
-}
-
-footer>img {
-  float: center;
-}
 
 h1,
 h2,
